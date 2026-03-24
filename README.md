@@ -18,13 +18,13 @@ Gestión de Dependencias: NPM
 ⚙️ Configuración del Entorno
 1. Clonar e Instalar
 Bash
-git clone https://github.com/tu-usuario/BackEnd-Panecitow.git
+git clone(https://github.com/Carballo1305/Ejemplo-Reac.git)
 cd BackEnd-Panecitow
 npm install
 2. Base de Datos
 Inicia MySQL desde el panel de XAMPP.
 
-Crea una base de datos en phpMyAdmin llamada: db_panecitow.
+Crea una base de datos en phpMyAdmin llamada: db_tienda.
 
 (Opcional) El sistema está configurado para que Sequelize cree las tablas automáticamente al iniciar si no importas el archivo .sql.
 
@@ -45,6 +45,7 @@ Para poner en marcha el servidor de desarrollo, ejecuta:
 Bash
 node app.js
 El servidor estará disponible en: http://localhost:3000
+Conectado a Xammp 
 
 📂 Estructura Principal
 /models: Definición de tablas y relaciones de base de datos.
