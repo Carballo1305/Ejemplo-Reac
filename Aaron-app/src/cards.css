@@ -1,0 +1,38 @@
+:root {
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Contenedor */
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Card general */
+.card {
+    background-color: white;
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+/* Imagen normalizada */
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Hover bonito opcional */
+.card:hover {
+    transform: translateY(-5px);
+}

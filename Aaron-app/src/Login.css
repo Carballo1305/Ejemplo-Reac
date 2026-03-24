@@ -1,0 +1,95 @@
+
+.login-container {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container h2 {
+    color: #0c2c36; 
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+}
+
+.login-form label {
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+.login-form input {
+    padding: 12px;
+    margin-bottom: 1.2rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #3182ce; 
+}
+
+.login-form button {
+    background-color: #156882; 
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+.login-form button:hover {
+    background-color: #1a4a58; 
+}
+
+.login-form button:active {
+    transform: scale(0.98); 
+}
+.login-form img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100px;
+    height: auto;
+}
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #0c2c36;
+    text-align: center;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.checkbox-container label {
+    cursor: pointer;
+    margin: 0;
+}

@@ -1,0 +1,52 @@
+/* Contenedor principal */
+.usuarios-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo de la tabla */
+.tabla-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-usuarios thead {
+    background-color: #4195e9;
+    color: #ffffff;
+    text-align: left;
+}
+
+.tabla-usuarios th, 
+.tabla-usuarios td {
+    padding: 15px 20px;
+}
+
+/* Filas de colores intercalados (Zebra) */
+.tabla-usuarios tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa;
+}
+
+/* Efecto al pasar el mouse */
+.tabla-usuarios tbody tr:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para el ID (más pequeño y gris) */
+.user-id {
+    color: #888;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/* Estilo para el nombre */
+.user-name {
+    color: #333;
+    font-weight: 500;
+}

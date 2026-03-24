@@ -1,0 +1,84 @@
+:root {
+    --primary-gradient: linear-gradient(90deg, #000000 18%, #090979 48%, #00d4ff 100%);
+    --accent-blue: #134ea7;
+    --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.content {
+    flex: 1;
+}
+
+.encabezadoDiv {
+    background: var(--primary-gradient);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logoDiv img {
+    width: 100px;
+    height: auto;
+}
+
+.menuDiv ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menuDiv ul li {
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.menuDiv ul li:hover {
+    color: #00d4ff;
+}
+
+.redesDiv img {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.redesDiv ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+footer {
+    background-color: var(--accent-blue);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    font-size: 0.8rem;
+    margin-top: auto;
+}
