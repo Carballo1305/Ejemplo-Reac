@@ -1,55 +1,47 @@
-🚀 FrontEnd
-Desarrollado por: Aarón Alí Carballo Paredes Heroico en el free
+# 🚀 Proyecto: FrontEnd (API RESTful)
+**Desarrollado por:** Aarón Alí Carballo Paredes — *Heroico en el free* 🎖️
 
-📝 Descripción
-EjemploReact es una API RESTful diseñada para gestionar la logística de un sistema de movilidad y comercio. Este backend permite administrar el registro de usuarios, catálogos de productos, categorías y flujos de carritos de compras, implementando un mapeo objeto-relacional (ORM) para asegurar la integridad de los datos.
+---
 
-🛠️ Stack Tecnológico
-Lenguaje: JavaScript (Node.js)
+## 📖 Índice
+1. [Descripción](#-descripción)
+2. [Stack Tecnológico](#️-stack-tecnológico)
+3. [Configuración del Entorno](#-configuración-del-entorno)
+4. [Ejecución](#-ejecución)
+5. [Endpoints de la API](#-endpoints-principales)
+6. [Estructura del Proyecto](#-estructura-principal)
 
-Servidor: Express.js
+---
 
-Base de Datos: MySQL (vía XAMPP)
+## 📝 Descripción
+**EjemploReact** es una API RESTful robusta diseñada para gestionar la logística de un sistema de movilidad y comercio. 
 
-ORM: Sequelize
+Este backend permite administrar:
+* 👤 **Registro de usuarios** y perfiles.
+* 📦 **Catálogos de productos** y categorías.
+* 🛒 **Flujos de carritos de compras**.
+* 🛡️ **Integridad de datos** mediante el uso de un ORM.
 
-Gestión de Dependencias: NPM
+---
 
-⚙️ Configuración del Entorno
-1. Clonar e Instalar
-Bash
-git clone(https://github.com/Carballo1305/Ejemplo-Reac.git)
-cd BackEnd-Panecitow
+## 🛠️ Stack Tecnológico
+* **Lenguaje:** `JavaScript (Node.js)`
+* **Servidor:** `Express.js`
+* **Base de Datos:** `MySQL` (vía XAMPP)
+* **ORM:** `Sequelize`
+* **Gestión de Dependencias:** `NPM`
+
+---
+
+## ⚙️ Configuración del Entorno
+
+### 1. Clonar e Instalar
+```bash
+# Clonar el repositorio
+git clone (https://github.com/Carballo1305/Ejemplo-React.git)
+
+# Entrar a la carpeta del backend
+cd BackEnd-Aaro-app
+
+# Instalar dependencias
 npm install
-2. Base de Datos
-Inicia MySQL desde el panel de XAMPP.
-
-Crea una base de datos en phpMyAdmin llamada: db_tienda.
-
-(Opcional) El sistema está configurado para que Sequelize cree las tablas automáticamente al iniciar si no importas el archivo .sql.
-
-3. Variables de Entorno (.env)
-Crea un archivo .env en la raíz del proyecto con la siguiente configuración:
-
-Fragmento de código
-DB_HOST=127.0.0.1
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=db_panecitow
-DB_PORT=3306
-
-PORT=3000
-🚀 Ejecución
-Para poner en marcha el servidor de desarrollo, ejecuta:
-
-Bash
-node app.js
-El servidor estará disponible en: http://localhost:3000
-Conectado a Xammp 
-
-📂 Estructura Principal
-/models: Definición de tablas y relaciones de base de datos.
-
-/routes: Puntos de entrada (endpoints) de la API.
-
-/controllers: Lógica de negocio para cada funcionalidad.
